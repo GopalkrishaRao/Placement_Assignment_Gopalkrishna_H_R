@@ -1,0 +1,52 @@
+
+.element{
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.pink{
+    background: #ffc0cb;
+}
+
+.yellow{
+    background: #f8f881;
+}
+
+.blue{
+    background: #8d8df1;
+}
+
+.green{
+    background: #92f192;
+}
+
+.center {
+    text-align: center;
+}
+.periodGroup{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.arrow{
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.star{
+    font-weight: bolder;
+}
+
+.tableDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td{
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
+}
