@@ -1,0 +1,64 @@
+body{
+    margin: 20px;
+}
+
+header{
+    height: 100px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.logo{
+    background: #12a4f8;
+}
+
+nav{
+    background: #a3a1a1;
+}
+
+.heroSection{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #666464;
+    height: 320px;
+}
+
+.blog{
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.blogImg{
+    background: #6dc2f3;
+}
+
+footer{
+    background: #a3a1a1;
+    height: 160px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 720px){
+    .heroSection{
+        height: 250px;
+    }
+
+    .footer{
+        height: 100px;
+    }
+}
+@media screen and (max-width: 480px) {
+    header{
+        height: 60px;
+        gap: 20px;
+    }
+
+    .blog{
+         grid-template-columns: 1fr;
+         height: 250px;
+    }
+
+}
