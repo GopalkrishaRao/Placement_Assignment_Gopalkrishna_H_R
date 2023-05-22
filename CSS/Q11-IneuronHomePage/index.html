@@ -1,8 +1,614 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>iNeuron.ai Clone</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>i Neuron</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="https://ineuron.ai/images/favicon/apple-touch-icon.png" rel="icon">
+
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+ <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Variables CSS Files. -->
+  <link href="assets/css/variables.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- our css js -->
+<link  href="./new_style/script.js">
+<link rel="stylesheet" href="./new_style/style.css">
+
 </head>
 
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top" data-scrollto-offset="0">
+    <div class="headermr container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+        
+        <img src="https://ineuron.ai/images/ineuron-logo.png" alt="ineuron">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          
+
+          <li class="dropdown"><a href="#"><span>Home</span> </a>
+          </li>
+
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="https://affiliate.ineuron.ai/" target="_blank">Become an affiliate</a></li>
+          <li class="dropdown megamenu"><a href="#"><span>Courses</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li>
+                <a href="https://ineuron.ai/course/HTML-and-CSS-for-Web-Development" target="_blank">Web Development</a>
+                <a href="https://ineuron.ai/course/Full-Stack-Data-Science-BootCamp-2.0" target="_blank">Data Science</a>
+                <a href="https://ineuron.ai/course/Big-Data-Foundations" target="_blank">Big Data</a>
+                <a href="https://ineuron.ai/course/AWS-Big-Data-Analytics" target="_blank">Data Analytics</a>
+                <a href="https://ineuron.ai/course/Complete-Front-End-Web-Developer-Bootcamp" target="_blank">Web Development</a>
+                <a href="https://ineuron.ai/course/Blockchain-Foundations" target="_blank">Blockchain</a>
+              </li>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav>
+      <!-- .navbar -->
+      <div class="serchscinin">
+          <form >
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="What do you want to learn
+                ">
+                <button type="button" class="btn btn-secondary btnsearch"><i class="bi-search"></i></button>
+            </div>
+          </form class="signinbtn">
+          <a class="btn-getstarted scrollto signinbtn" href="index.html#about">Sign In</a>
+      </div>
+
+    </div>
+  </header>
   
+  <!-- End Header -->
+<section class="hero-animated d-flex align-items-center" id="hero-animated">
+  
+            <img class="imgHi" src="./mobile.png">
+         
+<!--  - .hero-animated padding -->
+</section>
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container">
+          <h1 class="hardwork">"Pure Hardwork, No Shortcuts!"</h1>
+        <div class="row gy-4 phardwork">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="https://ineuron.ai/images/landing-page/statistics/books-icon.svg" alt="img"></div>
+              <h4><a href="" class="stretched-link">400+</a></h4>
+              <p>Different Courses</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+              <img src="https://ineuron.ai/images/landing-page/statistics/student-iocn.svg" alt="img"></div>
+              <h4><a href="" class="stretched-link">400000+</a></h4>
+              <p>Students Enrolled</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="https://ineuron.ai/images/landing-page/statistics/credit-card-icon.svg" alt="img"></div>
+              <h4><a href="" class="stretched-link">10000+</a></h4>
+              <p>Successful Transition</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header aboutussection">
+          <h1>About Us</h1>
+          <p>iNeuron started as a product development company, then launched its ed-tech division. We provide 360 degree solutions from learning to internship to finding a job, and the first ever educational OTT platform to upgrade your skill set.</p>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Our Achiever's Work with ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="clients-slider swiper sourachi">
+          <h1>Our Achiever's Work with</h1>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-12.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-13.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-14.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-15.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-16.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-17.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-18.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-19.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-20.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Our achievr's Wrok with -->
+
+     <!-- ======= Hall of Fame ======= -->
+     
+     <div class="hallofFame">
+      <h1>Hall of fame</h1>
+      
+      <div class="hall">
+          <div class="containerHOF">
+          
+              <div >
+      
+                          <img src="./assets/img/Hall of fame/shrivatsa.jpeg" alt="img" >
+                     
+              </div>
+  
+                  <h2><a href="./assets/img/Hall of fame/shrivatsa.jpeg" target="_blank">Shrivatsa G</a></h2>
+                  <h3>Trainee software developer, ECOLAB</h3>
+              
+              <div>
+                  
+                  <h4>A few days back I was scheduled for an interview at ECOLABS. Thanks to Naveen Reddy sir and his wonderful Youtube channel, I was </h4>
+                  
+              </div>
+          </div>
+  
+          <div class="containerHOF">
+              
+              <div class="feedback-07-01namedet profile-07">
+  
+                          <img src="./assets/img/Hall of fame/Aakash B.jpeg" alt="img">
+                  
+              </div>
+  
+                  <h2><a href="https://halloffame.ineuron.ai/achiever/Aakash-B-GaEWpI" target="_blank">Aakash B</a></h2>
+                  <h3>Software Development Engineer 1, Amazon</h3>
+              
+              <div>
+                  
+                  <h4>I was following Krish Sir YouTube channel for more than 2-3 year. I learnt Machine Learning and Deep Learning from him. I learnt basics of</h4>
+              </div>
+          </div>
+  
+          <div class="containerHOF">
+              
+              <div class="feedback-07-01namedet profile-07">
+                  <img src="./assets/img/Hall of fame/Chitra.jpeg" alt="img"><a href="https://hall-of-fame-cdn.ineuron.ai/profilePictures/62da4c5ea9f208001ac1ad2a.jpeg" target="_blank"></a></img>
+  
+                      
+                  
+              </div>
+  
+              <h2><a href="https://halloffame.ineuron.ai/achiever/Chitra-Patgar-fKIBuJ" target="_blank">Chitra Patgar</a></h2>
+              <h3>Programmer Analyst, Cognizant</h3>
+          
+              <div>
+              
+              <h4>I have enrolled for your ML course two years back , Python you taught in that course was awesome due to which I have cracked about 5 interview and concepts were also</h4>
+              </div>
+          </div>
+          
+      </div>
+  
+      <div class="button-viewmore">
+          <h2>    <a href="https://halloffame.ineuron.ai/" >View More</a> </h2>
+      </div>
+  </div>
+     
+
+
+     <!-- End Hall of Fame -->
+
+    
+
+       <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container whatyoulearn" data-aos="fade-up">
+        <p>What You Will Learn</p>
+
+        <ul class="nav nav-tabs row gy-4 d-flex">
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <!-- <i class="bi bi-code-slash"></i> -->
+              <h4>Live Programs</h4>
+            </a>
+          </li><!-- End Tab 1 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <!-- <i class="bi bi-cloudy"></i> -->
+              <h4>Affordable Programs</h4>
+            </a>
+          </li><!-- End Tab 2 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <!-- <i class="bi bi-android2"></i> -->
+              <h4>Community Programs</h4>
+            </a>
+          </li><!-- End Tab 3 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <!-- <i class="bi bi-server"></i> -->
+              <h4>One Neuron</h4>
+            </a>
+          </li><!-- End Tab 4 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+              <!-- <i class="bi bi-unity"></i> -->
+              <h4>Test Series</h4>
+            </a>
+          </li><!-- End Tab 5 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-2">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+              <!-- <i class="bi bi-ubuntu"></i> -->
+              <h4>Live program</h4>
+            </a>
+          </li><!-- End Tab 6 Nav -->
+
+        </ul>
+
+      </div>
+    </section><!-- End Features Section -->
+ <!-- ======= Tech avernges Section ======= -->
+ <section id="testimonials" class="testimonials">
+  <div class="container" data-aos="fade-up">
+    
+
+    <div class="testimonials-slider swiper">
+      <h1 class="techavengersh1">Tech Avengers</h1>
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item techavengers">
+            <img src="https://ineuron.ai/images/landing-page/mentors/sudhanshu-square.png" alt="">
+            <h3>Sudhanshu Kumar</h3>
+            <h4>AI Engineer  &amp; CEO</h4> 
+            
+          </div>
+        </div><!-- End testimonial item -->
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-item techavengers">
+            <img src="https://ineuron.ai/images/landing-page/mentors/hitesh-square.png" alt="">
+            <h3>Hitesh Choudhary</h3>
+            <h4>CTO</h4> 
+                    
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item techavengers">
+            <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png" alt="">
+            <h3>Krish Nair</h3>
+            <h4>CIO</h4> 
+                       
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item techavengers">
+            <img src="https://ineuron.ai/images/landing-page/mentors/telusko-square.png" alt="">
+            <h3>Navin Reddy</h3>
+            <h4>Senior VP</h4>
+                       
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item techavengers">
+            <img src="https://ineuron.ai/images/landing-page/mentors/amresh-square.png" alt="">
+            <h3>Amresh Bharti</h3>
+            <h4>VP Marketing</h4> 
+                       
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item techavengers">
+            <img src="https://ineuron.ai/images/landing-page/mentors/mysirg-square.png" alt="">
+            <h3>Saurabh Shukla</h3>
+            <h4>Senior VP</h4>  
+                    
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item techavengers">
+            <img src="https://ineuron.ai/images/landing-page/mentors/saksham-square.png" alt="">
+            <h3>Saksham Choudhary</h3>
+            <h4>Cyber Security Lead</h4>  
+                    
+          </div>
+        </div><!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section>
+<!-- End Tech Avengers -->
+
+<!-- Hakathon companies -->
+
+<section id="portfolio" class="portfolio" data-aos="fade-up">
+
+  <div class="container">
+
+    <div class="section-header">
+      
+      <p>Hackathon Companies</p>
+    </div>
+
+  </div>
+
+  <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
+
+    <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+
+     
+
+      <div class="row g-0 portfolio-container">
+
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/portfolio/nvidia.png" class="img-fluid" alt="">
+        
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/portfolio/redis.png" class="img-fluid" alt="">
+       
+        </div><!-- End Portfolio Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/portfolio/github.png" class="img-fluid" alt="">
+       
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/portfolio/geekyants.png" class="img-fluid" alt="">
+       
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/portfolio/learnyst.png" class="img-fluid" alt="">
+       
+        </div><!-- End Portfolio Item -->
+
+        
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/portfolio/jetbrains.png" class="img-fluid" alt="">
+       
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/portfolio/musigma.png" class="img-fluid" alt="">
+       
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="assets/img/portfolio/Logo.png" class="img-fluid" alt="">
+       
+        </div><!-- End Portfolio Item -->
+
+
+        
+
+ 
+
+      </div><!-- End Portfolio Container -->
+
+    </div>
+
+  </div>
+</section><!-- End hakathon Section -->
+
+
+<!-- ======= Our Products ======= -->
+<section id="services" class="services">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-header ourprodpa">
+      <p>Our Products</p>
+      
+    </div>
+
+    <div class="row gy-5">
+
+      <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+        <div class="service-item">
+          <div class="img">
+            <img src="./assets/img/service-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="details position-relative">
+            
+            <a href="https://jobs.ineuron.ai/" target="_blank"  class="stretched-link">
+              <h3>Job Portal</h3>
+            </a>
+            <p>Use exceptional templates for a stand-out resume minus the sign up process</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+        <div class="service-item">
+          <div class="img">
+            <img src="./assets/img/service-2.svg" class="img-fluid" alt="">
+          </div>
+          <div class="details position-relative">
+            
+            <a href="https://internship.ineuron.ai/" target="_blank" class="stretched-link">
+              <h3>Internship</h3>
+            </a>
+            <p>iNeuron's self-paced internship portal prioritises hands-on training with 570+ internship projects.</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+        <div class="service-item">
+          <div class="img">
+            <img src="./assets/img/service-3.svg"  class="img-fluid" alt="">
+          </div>
+          <div class="details position-relative">
+            
+            <a href="https://affiliate.ineuron.ai/" target="_blank"  class="stretched-link">
+              <h3>Become an affiliate</h3>
+            </a>
+            <p>Explore affiliate marketing opportunities with iNeuron and attain financial freedom</p>
+          </div>
+        </div>
+      </div><!-- End Service Item -->
+
+
+     
+    </div>
+
+  </div>
+</section><!-- Our Products Section -->
+
+
+   
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info footertitle">
+              <h3>iNeuron</h3>
+              <p>
+                17th Floor Tower A, <br>
+                 Brigade Signature Towers, <br>
+                  Sannatammanahalli,<br>
+                   Bengaluru, Karnataka 562129. <br>
+                   India<br><br>
+                <strong>Phone:</strong>  087885 03778<br>
+                <strong>Email:</strong> Email us: contact@ineuron.ai<br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://ineuron.ai/about-us" target="_blank">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://ineuron.ai/privacy-policy" target="_self">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Products</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://ineuron.ai/job-assistance" target="_blank">Job Portal</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://internship.ineuron.ai/" target="_blank">Internship portal</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://affiliate.ineuron.ai/" target="_blank">Become an affiliate</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://halloffame.ineuron.ai/" target="_blank">Hall of fame</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="https://blog.ineuron.ai/" target="_blank">InBlog</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p> </p>
+            <form action="" method="post" >
+              <input type="email" name="email"><input class="subbtn" type="submit" value="Subscribe">
+            </form>
+              <div class="footeriso">
+                <img src="./assets/img/iso.svg" alt="img">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-legal text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>i Neuron</span></strong>. All Rights Reserved 2022
+          </div>
+         
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0 socialfotter">
+          <a href="https://twitter.com/iNeuronAi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="twitter fottwi"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.facebook.com/futureindatascience/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/ineuron.ai/?hl=en" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/ineuron-ai/?originalSubdomain=in" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center arrow-up-ab"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+
+</html>

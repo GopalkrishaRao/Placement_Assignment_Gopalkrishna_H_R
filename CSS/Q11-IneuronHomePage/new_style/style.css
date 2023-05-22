@@ -1,0 +1,304 @@
+
+.contentsinBanner {
+    margin-left:7rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    width: 40%;
+  }
+h2{
+  color: white !important;
+}
+
+ .image_in_banner{
+  position: absolute;
+  right: 0%;
+    top: 24%;
+ }
+
+
+.imgHi{
+  object-fit: cover;
+  width: 100vw;
+  height: 600px;
+}
+
+
+@media screen and (max-width: 1230px) {
+  .imgHi{
+    height: 250px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+  .headermr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .signinbtn{
+    display: none;
+  }
+
+}
+
+
+/* particle effects */
+canvas{ 
+  display: block; vertical-align: bottom; 
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{ 
+  position:relative; 
+  width: 100%; 
+  height: 590px; 
+  background-color: #0e1924; 
+  background-image: url(""); 
+  background-repeat: no-repeat;
+   background-size: cover; 
+   background-position: 50% 50%; 
+  } 
+  
+  /* ---- stats.js ---- */ 
+  
+  .count-particles{ 
+      background: #000022; 
+      position: absolute; 
+      top: 48px; 
+      left: 0; 
+      width: 80px;
+       color: #13E8E9;
+        font-size: .8em; 
+        text-align: left;
+         text-indent: 4px;
+          line-height: 14px;
+           padding-bottom: 2px;
+            font-family: Helvetica, Arial, sans-serif; font-weight: bold;
+           } 
+           
+           .js-count-particles{ font-size: 1.1em; } 
+           #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } 
+           #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } 
+           .count-particles{ border-radius: 0 0 3px 3px; }
+
+#typingEffectforheading{
+  font-size: 38px;
+  font-weight: 300;
+}
+
+#typingEffect{
+  font-size: 20px;
+  color: white;
+}
+
+
+/* scearh and sign in */
+
+.serchscinin{
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+/* Pure hardwork */
+.hardwork{
+  display: flex;
+  justify-content: center;
+}
+.phardwork{
+  display: flex !important;
+  justify-content: space-around;
+}
+
+/* Hall of fame */
+
+.hallofFame{
+  background: linear-gradient(180deg,#e9ecef, #dee2e6);
+  background-repeat: none;
+  height: 530px;
+  padding-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.hallofFame>h1 , section-header p{
+  
+  display: flex;
+  justify-content: center;
+  color: #1f1f1f;
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.hall{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 35px;
+  justify-content: center;
+ 
+}
+
+.hall h2 a{
+  font-size: 25px;
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 18px;
+}
+
+.hall h3{
+  font-size: 12px;
+}
+
+.hall h4{
+  margin: 10px 20px 20px 20px;
+  font-weight: 200;
+  color: #666e75;
+  font-size: 14px;
+  text-align: center;
+}
+.hall h2, .hall h1{
+  text-align: center;
+ 
+}
+
+.containerHOF{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #283278;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #e7dfdf;
+
+}
+
+.containerHOF:hover{
+  box-shadow: 5px 5px 5px #e7dfdf;
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+.button-viewmore{
+  display: flex;
+  justify-content: center;  
+  margin-top: 20px;
+}
+
+
+.button-viewmore a{
+  color:#1f1f1f;
+  text-decoration: none;
+  border: none;
+  font-size: 18px;
+
+}
+
+.containerHOF>div>img{
+position: relative;
+  height: 100px !important;
+  border-radius: 50% !important;
+  margin-top:20px !important;
+  border: 4px solid #f38f0e ;
+}
+
+/* end of  Hall of fame*/
+
+/* Our achivers work with */
+.sourachi h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.clients > .container > .clients-slider > .swiper-wrapper> .swiper-slide> img{
+  height: 50px;
+}
+
+/* footer ineuron */
+.footer-info>h3{
+  text-transform: none !important;
+  color: #ef8802;
+}
+
+/* Tech Avenger Section */
+.techavengers>img{
+  background: #fff;
+  border-radius: 50%;
+  border: 2px solid #f28b06 ;
+  height: 200px;
+
+}
+
+.techavengersh1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 600;
+  
+}
+
+/* Our products */
+.ourprodpa p{
+  font-size: 40px;
+}
+
+/* Sign in button and subscribe button */
+
+.signinbtn:hover, .subbtn:hover, .arrow-up-ab:hover, .btnsearch:hover {
+  background: #ef8802 !important;
+  opacity: 80%;
+}
+
+/* What you will learn */
+
+.whatyoulearn>p{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.btnsearch{
+  background: rgba(40, 50, 120, 1);
+}
+/* hakaton companies */
+.section-header p{
+  
+  display: flex;
+  justify-content: center;
+  color: #1f1f1f;
+  font-size: 40px;
+}
+
+.aboutussection>p{
+  font-size: 15px;
+  color: #666e75;
+}
+
+/* iso */
+
+
+.footeriso img{
+  margin-top: 20px;
+  height: 120px;
+}
+
+.socialfotter a{
+  background: #283278 !important;
+
+}
+
+.socialfotter> a> i{
+  color: #fff;
+}
+
+.socialfotter a:hover{
+  background:  #ef8802 !important;
+}
