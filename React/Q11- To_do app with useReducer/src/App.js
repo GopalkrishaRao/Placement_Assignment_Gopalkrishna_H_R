@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import {hot} from "react-hot-loader";
+import TodoApp from "./components/TodoApp";
+import "./App.css";
 
-function App() {
-  return (
-   <>
-   <h1>React</h1>
-   </>
+const App = () => {
+  return(
+    <div className="App">
+      <h1 style={{textAlign:'center'}}>     Todo App 
+      </h1>
+      <TodoApp />
+    </div>
   );
 }
 

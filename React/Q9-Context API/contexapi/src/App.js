@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import ThemeContext from "./Context/ThemeContext";
+import HeroSection from "./Components/HeroSection";
 
-function App() {
+const App = () => {
+  const themeHook = useState("light");
   return (
-   <>
-   <h1>React</h1>
-   </>
+    <ThemeContext.Provider value={themeHook}>
+      <div>
+        <HeroSection />
+      </div>
+    </ThemeContext.Provider>
   );
-}
+};
 
 export default App;

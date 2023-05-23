@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Game from './Game'
 
-function App() {
+export default function App() {
   return (
    <>
-   <h1>React</h1>
+   <Game/>
    </>
-  );
+  )
 }
-
-export default App;
