@@ -26,7 +26,6 @@ export function findWinner(squares) {
 			return squares[a];
 		}
 	}
-  
 	return null;
 }
 

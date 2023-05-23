@@ -10,19 +10,28 @@ body {
 }
 
 .square {
-	background: #4169E1;
-	border: 2px solid #999;
+	background: #b3b1a9;
+	border: 2px solid #070707;
 	float: left;
-	font-size: 24px;
+	font-size: 70px;
 	font-weight: bold;
 	line-height: 34px;
-	height: 34px;
+	height: 20vh;
+	width: 20vh;
 	margin-right: -2px;
 	margin-top: -2px;
 	padding: 0;
 	text-align: center;
-	width: 34px;
 }
+
+@media screen and (max-width: 350px) {
+	.square{
+		font-size: 40px;
+		height: 10vh;
+		width: 10vh;
+	}
+  }
+
 
 .square:focus {
 	outline: none;
@@ -30,9 +39,24 @@ body {
 
 .status {
 	margin: 10px;
+	text-align: center;
+	font-size: 50px;
 }
 
 .game {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.restart{
+	color: #000;
+	font-weight: 600;
+	font-size: 20px;
+	height: 40px;
+	width: 120px;
+	cursor: pointer;
+	border: 2px solid #000;
 }

@@ -1,10 +1,13 @@
-import React from 'react'
-import Game from './Game'
+import React from 'react';
+import Board from './Board';
 
-export default function App() {
-  return (
-   <>
-   <Game/>
-   </>
-  )
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Board />
+      </>
+    );
+  }
 }
+export default App;
