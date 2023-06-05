@@ -289,26 +289,31 @@ Given two sparse matrices mat1 of size m x k and mat2 of size k x n, return the 
 
 ```
 function multiplyMatrices(mat1, mat2) {
-  const m = mat1.length;
-  const k = mat1[0].length;
-  const n = mat2[0].length;
+    const m = mat1.length;
+    const k = mat1[0].length;
+    const n = mat2[0].length;
+    
+    const result = Array.from({ length: m }, () => Array(n).fill(0));
   
-  const result = Array.from({ length: m }, () => Array(n).fill(0));
-
-  for (let i = 0; i < m; i++) {
-    for (let j = 0; j < n; j++) {
-      let sum = 0;
-      for (let l = 0; l < k; l++) {
-        if (mat1[i][l] !== 0 && mat2[l][j] !== 0) {
-          sum += mat1[i][l] * mat2[l][j];
+    for (let i = 0; i < m; i++) {
+      for (let j = 0; j < n; j++) {
+        let sum = 0;
+        for (let l = 0; l < k; l++) {
+          if (mat1[i][l] !== 0 && mat2[l][j] !== 0) {
+            sum += mat1[i][l] * mat2[l][j];
+          }
         }
+        result[i][j] = sum;
       }
-      result[i][j] = sum;
     }
+  
+    return result;
   }
+  
+let mat1 = [[1,0,0],[-1,0,3]];
+let mat2 = [[7,0,0],[0,0,0],[0,0,1]];
 
-  return result;
-}
-
+console.log(multiplyMatrices(mat1, mat2));
+//Output: [[7,0,0],[-7,0,3]]
 
 ```
