@@ -1,30 +1,21 @@
 const express = require('express');
 const app = express();
 
-// middleware
-app.use(logger)
+// Middleware to check if user is authenticated
+const authenticateUser = (req, res, next) => {
+ 
+  const isAuthenticated = false;
 
-app.get('/', (req, res)=>{
-    res.send('Home Page')
-})
+  if (isAuthenticated) {
+    next();
+  } else {
+    res.status(401).send('Unauthorized');
+  }
+};
 
-app.get('/users', auth, (req, res)=>{
-    res.send('Users Page')
-})
-
-function logger(req, res, next){
-    // middle ware function
-    next()
-}
-
-function auth(req, res, next){
-    // authentication middleware functions
-   if(req.squery.admin === 'true'){
-    next()
-    return
-   }else{
-    res.send('Only admin is allowed')
-   }
-    next()
-}
+// Route handler to get post data
+app.get('/post', authenticateUser, (req, res) => {
+  const postData =  {};
+  res.json(postData);
+});
 app.listen(3000)
