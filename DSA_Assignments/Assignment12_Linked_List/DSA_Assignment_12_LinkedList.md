@@ -24,7 +24,6 @@ let head = [2,1];
 console.log(deleteMiddle(head));
 //Output: 2
 
-
 ```
 
 #
@@ -42,7 +41,6 @@ function hasLoop(list){
   }
   return false;
 }
-
 ```
 #
 * **Question 3**
@@ -70,11 +68,11 @@ function findNthFromEnd(head, N) {
     return second;
 }
 
-
 ```
 
 #
 * **Question 4**
+
 Given a singly linked list of characters, write a function that returns true if the given list is a palindrome, else false.
 
 * **Answer:**
@@ -95,7 +93,6 @@ function isPalindrome(head) {
     current = current.next;
   }
 
-  
   const reversedCharacters = characters.reverse();
 
  
@@ -113,6 +110,7 @@ function isPalindrome(head) {
 ```
 #
 * **Question 5**
+
 Given a linked list of **N** nodes such that it may contain a loop.
 
 A loop here means that the last node of the link list is connected to the node at position X(1-based index). If the link list does not have any loop, X=0.
@@ -223,6 +221,15 @@ class Solution {
 ```
 #
 * **Question 7**
+
+💡 **Question 7**
+
+Given two linked lists, insert nodes of second list into first list at alternate positions of first list.
+For example, if first list is 5->7->17->13->11 and second is 12->10->2->4->6, the first list should become 5->12->7->10->17->2->13->4->11->6 and second list should become empty. The nodes of second list should only be inserted when there are positions available. For example, if the first list is 1->2->3 and second list is 4->5->6->7->8, then first list should become 1->4->2->5->3->6 and second list to 7->8.
+
+Use of extra space is not allowed (Not allowed to create additional nodes), i.e., insertion must be done in-place. Expected time complexity is O(n) where n is number of nodes in first list.
+
+
 
 * **Answer:**
 
