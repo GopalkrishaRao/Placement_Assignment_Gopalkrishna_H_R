@@ -151,6 +151,7 @@ Given a linked list, write a function to reverse every alternate k nodes (where 
 
  * **Answer:**
 
+```
  class Node {
   constructor(val) {
     this.data = val;
@@ -186,9 +187,6 @@ function reverseAlternateKNodes(head, k) {
   
   return prev;
 }
-
-
-```
 
 ```
 #
