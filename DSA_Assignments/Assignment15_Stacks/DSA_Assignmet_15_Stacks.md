@@ -24,13 +24,10 @@ function findNextGreaterElements(arr) {
   return result;
 }
 
-
 const arr = [1, 3, 2, 4];
 console.log(findNextGreaterElements(arr));
 
 Output: [3, 4, 4, -1]
-
-
 ```
 
 #
@@ -47,7 +44,6 @@ function findNearestSmallerElements(a) {
     while (stack.length && stack[stack.length - 1] >= a[i]) {
       stack.pop();
     }
-
     if (stack.length) {
       result.push(stack[stack.length - 1]);
     } else {
@@ -56,7 +52,6 @@ function findNearestSmallerElements(a) {
 
     stack.push(a[i]);
   }
-
   return result;
 }
 
@@ -64,7 +59,9 @@ function findNearestSmallerElements(a) {
 
 #
 * **Question 3**
+
 Implement a Stack using two queues q1 and q2.
+
 * **Answer:**
 
 ```
@@ -164,7 +161,6 @@ function insertAtBottom(stack, element) {
   stack.push(temp);
 }
 
-
 ```
 
 #
@@ -199,14 +195,13 @@ class Stack {
 function reverseString(string) {
   const stack = new Stack();
 
-  // Push each character onto the stack
+  
   for (let i = 0; i < string.length; i++) {
     stack.push(string[i]);
   }
 
   let reversedString = '';
 
-  // Pop each character from the stack and append it to the new string
   while (!stack.isEmpty()) {
     reversedString += stack.pop();
   }
@@ -285,7 +280,7 @@ function performOperation(operand1, operand2, operator) {
   }
 }
 
-// Example usage:
+
 const postfixExpression = "231*+9-";
 const result = evaluatePostfixExpression(postfixExpression);
 console.log(result);
@@ -320,7 +315,7 @@ class MinStack {
   push(val) {
     this.stack.push(val);
 
-    // Update the minimum stack
+    
     if (this.minStack.length === 0 || val <= this.getMin()) {
       this.minStack.push(val);
     }
@@ -329,7 +324,6 @@ class MinStack {
   pop() {
     const popped = this.stack.pop();
 
-    // Update the minimum stack if the popped element is the current minimum
     if (popped === this.getMin()) {
       this.minStack.pop();
     }
@@ -380,7 +374,6 @@ function trapWater(height) {
   return totalWater;
 }
 
-// Example usage:
 const height = [4, 2, 0, 3, 2, 5];
 const waterTrapped = trapWater(height);
 console.log(waterTrapped); 
