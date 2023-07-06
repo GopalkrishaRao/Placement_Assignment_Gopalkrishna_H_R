@@ -1,0 +1,27 @@
+body{
+    background: #000;
+}
+.student-dashboard {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 2px solid #fff;
+    color: #fff;
+    min-width: 160px;
+  }
+  
+  @media (max-width: 800px) {
+    .table-wrapper {
+      overflow-x: auto;
+    }
+  }
+
+  

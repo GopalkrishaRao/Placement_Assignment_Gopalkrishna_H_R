@@ -5,9 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OneCard_demoLandingPage</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
 </head>
 <body>
-    
-    
+    <nav>
+        <div class="logo">
+            <img src="./Mdeia/oneLogo.svg" alt="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="applyBtn">
+            <button class="navBtn">
+                Apply Now
+            </button>
+        </div>
+        <div class="hamberber">
+           <span class="material-symbols-outlined">
+            menu
+            </span>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="heroleft">
+            <div>
+                Say Hi to
+            </div>
+            <div class="oneCardTag">
+                One Card
+            </div>
+            <div class="coBrand" >
+                Co-branded Card Issuers : 
+            </div>
+            <div class="bankingPartners">
+                <img src="./Mdeia/Banking_partners.png"
+                alt="OneCard Banking Partners"  />
+            </div>
+            <div>
+                <p> 
+                    India's best metal credit card. Built with full-stack tech. Backed by the principles of simplicity,
+                  transparency, and giving back control to the user.
+                </p>
+            </div>
+            <a href="#"               target="_blank"
+              class="applyNow">
+                <img src="./Mdeia/cta_apply_now.svg" 
+                alt="Apply for OneCard">
+            </a>
+        </div>
+
+        <!-- hero right video -->
+        <div class="heroright">
+            <video 
+                class="img-fluid" 
+                autoplay="autoplay" muted="muted"
+                loop="loop">
+                <source src="./Mdeia/01.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <div class="hiddenfee" id="theme">
+        <h2>No Hidden Fees Ever</h2>
+        <h3>No Joining Fees.</h3>
+        <h3>No Annual Fees.</h3>
+        <h3>No Rewares Redemption Fees.</h3>
+    </div>
+
+    <script>
+        window.onload = function() {
+    document.getElementById('theme').scrollIntoView();
+};
+    </script>
 </body>
 </html>
