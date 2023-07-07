@@ -64,28 +64,29 @@ Your task is to create a simple webpage that replicates the one-page landing pag
 #
 ##
 
-* [Gitrepo link]()
-* [Deployment link]()
+* [Gitrepo link](https://github.com/GopalkrishaRao/Placement_Assignment_Gopalkrishna_H_R/tree/main/WebDevelopmentAssignmets/Assignment3/Q6_onecardLandingPage)
+* [Deployment link](https://onecardnavpage.netlify.app/)
 
 #
-##
+## Q.7 You are tasked with building a webpage that displays an image gallery using a grid layout. The challenge is to ensure the gallery is visually appealing and functional on both large and small screens. On large screens, the gallery should display multiple images per row, while on small screens, it should collapse into a single column for optimal viewing. Refer to the attached images for visual reference. Implement this using CSS Grid and media queries for responsiveness.
 
-* [Gitrepo link]()
-* [Deployment link]()
-
-#
-##
-
-* [Gitrepo link]()
-* [Deployment link]()
+* [Gitrepo link](https://github.com/GopalkrishaRao/Placement_Assignment_Gopalkrishna_H_R/tree/main/WebDevelopmentAssignmets/Assignment3/Q7_Gridlyout)
+* [Deployment link](https://assignme3q7gridlayout.netlify.app/)
 
 #
-##
-* [Gitrepo link]()
-* [Deployment link]()
+## Q.8 In this coding challenge, your task is to create an information section for the previously built OneCard webpage clone, focusing on the different modes like dark and light modes. The webpage should look different depending on the screen size: dark mode for larger screens and light mode for smaller devices. The reference images are attached below.
+
+* [Gitrepo link](https://github.com/GopalkrishaRao/Placement_Assignment_Gopalkrishna_H_R/tree/main/WebDevelopmentAssignmets/Assignment3/Q8_darkandLightmode)
+* [Deployment link](https://assignment3q8darkmode.netlify.app/)
 
 #
-##
+## Q.9 You have reached the final task of learning responsive web design, which involves designing a responsive footer. Your goal is to build a simple webpage footer that matches the design shown in the attached image. The footer should adapt to different screen sizes, ensuring optimal visibility and alignment of the content. Refer to the attached image for a visual reference.
 
-* [Gitrepo link]()
-* [Deployment link]()
+* [Gitrepo link](https://github.com/GopalkrishaRao/Placement_Assignment_Gopalkrishna_H_R/tree/main/WebDevelopmentAssignmets/Assignment3/Q9_ResponsiveFooter)
+* [Deployment link](https://a3q9responsivefooter.netlify.app/)
+
+#
+## Q.10 You have been given to create a student dashboard page that includes a student details table. The challenge lies in handling the table's display on different screen sizes. On large screens, the table should be fully visible, while on small screens, it should have an internal scroll to ensure proper visibility of information.
+
+* [Gitrepo link](https://github.com/GopalkrishaRao/Placement_Assignment_Gopalkrishna_H_R/tree/main/WebDevelopmentAssignmets/Assignment3/Q10_ResponsiveTable)
+* [Deployment link](https://a3q10table.netlify.app/)
