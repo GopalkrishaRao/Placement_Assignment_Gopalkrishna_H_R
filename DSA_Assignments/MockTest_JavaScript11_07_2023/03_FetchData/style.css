@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+  }
+
+ #user-list{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ } 
+
+.skeleton-loader {
+    height: 100px;
+    width: 200px;
+    background-color: #e7e2e2;
+    margin-bottom: 10px;
+  }
+
+  .skeleton-loader>*{
+    background-color: #a3a2a2;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
