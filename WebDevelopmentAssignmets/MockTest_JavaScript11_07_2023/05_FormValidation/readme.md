@@ -1,2 +1,2 @@
-* [Deployed Link]()
-* [Gitrepo Link]()
+* [Deployed Link](https://formvalidation-ce373e.netlify.app/)
+* [Gitrepo Link](https://github.com/GopalkrishaRao/Placement_Assignment_Gopalkrishna_H_R/tree/main/WebDevelopmentAssignmets/MockTest_JavaScript11_07_2023/05_FormValidation)

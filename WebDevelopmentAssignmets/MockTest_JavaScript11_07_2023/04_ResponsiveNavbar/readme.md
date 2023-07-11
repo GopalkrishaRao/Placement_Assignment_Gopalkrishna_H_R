@@ -1,2 +1,2 @@
-* [Deployed Link]()
-* [Gitrepo Link]()
+* [Deployed Link](https://responsivenavbar-8cb326.netlify.app/)
+* [Gitrepo Link](https://github.com/GopalkrishaRao/Placement_Assignment_Gopalkrishna_H_R/tree/main/WebDevelopmentAssignmets/MockTest_JavaScript11_07_2023/04_ResponsiveNavbar)
